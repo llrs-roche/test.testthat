@@ -9,4 +9,6 @@
 library(testthat)
 library(test.testthat)
 
+options(warn = 2)
+
 test_check("test.testthat")
